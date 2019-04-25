@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="4dp"
+        android:background="#f2f8ff">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="1dp"
+                    android:background="@drawable/border_container">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true">
+
+              <ImageView
+                      android:id="@+id/icon_start"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="4"
+                      android:src="@drawable/ic_stars_black_24dp"
+                      android:layout_gravity="center"/>
+
+              <TextView
+                      android:id="@+id/tv_name_subject"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="2"
+                      android:text="Calculo Integral"
+                      android:textColor="@color/intro_title_color"
+                      android:textSize="16sp"
+                        android:layout_marginLeft="4dp"
+                        />
+
+                <TextView
+                        android:id="@+id/tv_show_details"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:text="Show details >"
+                        android:textColor="@color/colorPrimary"/>
+
+
+
+            </LinearLayout>
+            </LinearLayout>
+
+</LinearLayout>

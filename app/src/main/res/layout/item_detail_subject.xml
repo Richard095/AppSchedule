@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_vertical">
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@drawable/toolbar_gradient"
+                android:layout_marginTop="12dp">
+
+                <TextView
+                        android:id="@+id/day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lunes"
+                        android:textAlignment="textStart"
+                        android:padding="4dp"
+                        android:textColor="@color/colorPrimary"
+
+                        android:textSize="18sp"
+                       android:layout_weight="3"/>
+
+                <TextView
+                        android:id="@+id/tv_star_class"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7:00 AM"
+                        android:textAlignment="center"
+                        android:layout_margin="8dp"
+                        android:padding="8dp"
+                        android:background="@drawable/style_text"
+                        android:textColor="@color/colorAccent"/>
+
+                <TextView
+                        android:id="@+id/tv_end_class"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A"
+                        android:textAlignment="center"
+                        android:layout_margin="12dp"
+                        android:padding="8dp"
+
+                        android:textColor="@color/intro_description_color"/>
+
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8:00 AM"
+                        android:textAlignment="center"
+                        android:layout_margin="16dp"
+                        android:padding="8dp"
+                        android:background="@drawable/style_text"
+                        android:textColor="@color/colorAccent"/>
+
+            </LinearLayout>
+
+
+</LinearLayout>
